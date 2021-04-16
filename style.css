@@ -22,7 +22,7 @@
 
 [data-theme='dark'] {
    --color-background: #333;
-   --color-border: rgba(100,100,100,0.5);
+   --color-border: rgba(66, 32, 190, 0.671);
    --color-primary: rgba(255,255,0,0.8);
    --color-text: rgba(255,255,255,0.8);
    --img-opacity: 0.6;
@@ -98,19 +98,6 @@ img:hover {
    opacity: 1;
 }
 
-.grid {
-   display: flex;
-   flex-flow: row wrap;
-}
-
-@media (min-width: 62em) {
-   .grid.halves > .column {
-      flex: 1 1 50%;
-   }
-   .grid.thirds > .column {
-      flex: 1 1 calc(100% / 3);
-   }
-}
 /* 
 .toggle {
    bottom: 3vw;
