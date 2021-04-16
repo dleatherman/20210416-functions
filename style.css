@@ -22,12 +22,11 @@
 
 [data-theme='dark'] {
    --color-background: #333;
-   --color-border: rgba(66, 32, 190, 0.671);
+   --color-border: rgba(57, 213, 96, 0.392);
    --color-primary: rgba(255,255,0,0.8);
    --color-text: rgba(255,255,255,0.8);
    --img-opacity: 0.6;
 }
-
 [data-theme='light'] .light {
    display: none;
 }
