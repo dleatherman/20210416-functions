@@ -98,6 +98,19 @@ img:hover {
    opacity: 1;
 }
 
+.grid {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+@media (min-width: 62em) {
+   .grid.halves > .column {
+      flex: 1 1 50%;
+   }
+   .grid.thirds > .column {
+      flex: 1 1 calc(100% / 3);
+   }
+}
 /* 
 .toggle {
    bottom: 3vw;
